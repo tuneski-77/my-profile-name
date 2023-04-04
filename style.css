@@ -1,0 +1,96 @@
+body {
+  background-image: url('https://i.redd.it/dxll3k7uwwt51.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Playfair Display', serif;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  /* Add some margin to the top of the h1 element */
+  h1 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+  }
+  h2 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+  h3 {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    align-items: center;
+  }  
+  /* Add some margin to the top and bottom of the ul element */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  }  
+.icon-links{
+  display: flex
+}
+.fab {
+  font-size: 2em; /* Change the icon size as needed */
+  color: black; /* Change the icon color as needed */
+  margin-right: 10px; /* Add some spacing between the icon and the text */
+}
+.fab:hover {
+  color: plum; /* Change the hover color as needed */
+  transition: color 0.2s ease-in-out;
+}
+img {
+  width: 150px;
+  height: 178px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.profile-about, .profile-interests, .profile-follow, .play-now{
+  background-color: rgba(230, 230,230, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 2px 2px 2px black;
+}
+.profile-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 2px 2px 2px black;
+  background-color: rgba(230, 230,230, 0.7);
+
+}
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: plum;
+}
